@@ -2,26 +2,24 @@
   "expo": {
     "name": "Goal Management",
     "slug": "goal-management",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "backgroundColor": "#1e085a",
+    "backgroundColor": "#ffc078",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#1e085a"
+      "backgroundColor": "#51cf66"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "buildNumber": "1.0.0",
       "supportsTablet": true,
       "bundleIdentifier": "com.sagormajomder.goalmanagement"
     },
     "android": {
-      "versionCode": 1,
+      "versionCode": 4,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"

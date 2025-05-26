@@ -1,13 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
-import {
-  Button,
-  FlatList,
-  Pressable,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 import GoalInput from './components/GoalInput';
 import GoalItem from './components/GoalItem';
 
@@ -100,11 +93,18 @@ const styles = StyleSheet.create({
   },
   addNewGoalText: {
     padding: 10,
-    color: '#ddd',
+    color: '#3f3f3f',
     textAlign: 'center',
     fontSize: 20,
     fontWeight: 'bold',
-    backgroundColor: '#5e0acc',
+    backgroundColor: '#ff922b',
     padding: 10,
   },
 });
+
+//  "dependencies": {
+//     "expo": "^53.0.9",
+//     "expo-status-bar": "~2.2.3",
+//     "react": "19.0.0",
+//     "react-native": "0.79.2"
+//   },

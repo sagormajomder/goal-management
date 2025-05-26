@@ -7,7 +7,11 @@ function GoalItem({ text, id, onDeleteGoal }) {
         <Text style={styles.goalText}>{text}</Text>
       </View>
       <View style={styles.btnContainer}>
-        <Button color='red' title='Delete' onPress={() => onDeleteGoal(id)} />
+        <Button
+          color='#fa5252'
+          title='Delete'
+          onPress={() => onDeleteGoal(id)}
+        />
       </View>
     </View>
   );
@@ -22,12 +26,13 @@ const styles = StyleSheet.create({
     margin: 8,
     padding: 10,
     borderRadius: 6,
-    backgroundColor: '#5e0acc',
+    backgroundColor: '#ffa94d',
   },
   goalText: {
-    color: '#fff',
+    color: '#3d3d3d',
     padding: 8,
-    fontSize: 16,
+    fontSize: 18,
+    fontWeight: '600',
   },
   btnContainer: {
     width: '100',
