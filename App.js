@@ -93,11 +93,11 @@ const styles = StyleSheet.create({
   },
   addNewGoalText: {
     padding: 10,
-    color: '#3f3f3f',
+    color: '#ddd',
     textAlign: 'center',
     fontSize: 20,
     fontWeight: 'bold',
-    backgroundColor: '#ff922b',
+    backgroundColor: '#a15712',
     padding: 10,
   },
 });

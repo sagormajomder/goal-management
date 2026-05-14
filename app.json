@@ -2,7 +2,7 @@
   "expo": {
     "name": "Goal Management",
     "slug": "goal-management",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "backgroundColor": "#ffc078",
@@ -19,7 +19,7 @@
       "bundleIdentifier": "com.sagormajomder.goalmanagement"
     },
     "android": {
-      "versionCode": 4,
+      "versionCode": 5,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -33,6 +33,7 @@
       "eas": {
         "projectId": "159c2aab-3741-4d4d-a9ea-542450a35bbf"
       }
-    }
+    },
+    "owner": "sagormajomder"
   }
 }
